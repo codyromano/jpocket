@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "config"
+  ],
+  "include": ["src/**/*"]
+}
