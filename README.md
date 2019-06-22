@@ -8,6 +8,10 @@ cp credentials.example.json credentials.json
 ```
 Run the deploy script to create `.zip` for Lambda:
 ```
-npm run deploy
+npm run build
 ```
-Upload the `.zip` to Lambda and use a Cloud Watch rule to make it execute on a set schedule.
+Upload the `.zip` to Lambda using the AWS Web UI and use a Cloud Watch rule to make it execute on a set schedule.
+
+## Wishlist
+
+[] Implement aws-cli to progammatically update Lambda code as part of `npm run build`
