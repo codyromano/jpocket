@@ -3,24 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codyromano/jpocket.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/codyromano/jpocket/issues"
   },
   "homepage": "https://github.com/codyromano/jpocket#readme",
   "dependencies": {
+    "moment-timezone": "^0.5.25",
     "twilio": "^3.32.0"
   },
   "devDependencies": {
-    "@types/twilio": "0.0.10"
-  }
+    "@types/twilio": "0.0.10",
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
