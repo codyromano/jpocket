@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/codyromano/jpocket#readme",
   "dependencies": {
-    "moment-timezone": "^0.5.25",
+    "moment-timezone": "^0.5.35",
     "twilio": "^3.32.0"
   },
   "devDependencies": {
